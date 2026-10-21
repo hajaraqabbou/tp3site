@@ -1,0 +1,109 @@
+
+.navbar-brand img {
+    height: 45px;
+    width: auto;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+.accueil {
+    background-color: #101d35;
+    color: white;
+    padding: 70px 20px;
+    min-height: 600px;
+}
+
+.accueil h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.accueil p {
+    margin: 20px auto;
+    max-width: 550px;
+}
+
+
+.mascotte {
+    width: 190px;
+    max-width: 80%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.navbar-brand {
+    flex-shrink: 0;
+}
+
+.navbar-nav {
+    gap: 22px;
+}
+
+.navbar-nav .nav-link {
+    color: #263746;
+    font-size: 13px;
+    white-space: nowrap;
+    margin-left: 0;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #168ed1;
+}
+
+
+@media (max-width: 800px) {
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 11px;
+    }
+
+    .navbar-brand span {
+        font-size: 12px;
+    }
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #102238;
+}
+
+.card-text {
+    color: #596675;
+    line-height: 1.6;
+}
+
+main h1 {
+    color: #102238;
+    font-weight: bold;
+}
+
+main h2, main h3 {
+    color: #163b59;
+}
+
+main .card {
+    border: 1px solid #e0e5ea;
+    border-radius: 15px;
+}
+
+main .card p {
+    color: #596675;
+    line-height: 1.7;
+}
